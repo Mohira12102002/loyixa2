@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.sales .items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales .items .item{
+    background: #999999;
+    border-radius: 10px;
+    padding: 87px 290px 87px 40px;
+    width: 649px;
+}
+
+.sales .items .item .title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+
+}
+
+.sales .items .item .subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.sales .items .item .sum{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.sales .items .item .sum p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-right: 8px;
+}
+
+.sales .items .item .sum .sale{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF8A00;
+    border-radius: 5px;
+    padding: 4px 8px;
+
+}
+
+.sales .items .item .shopNow{
+    display: flex;
+    align-items: center;
+    background: #00B307;
+    border-radius: 43px;
+    padding: 14px 32px;
+    width: 162px;
+    height: 45px;
+
+}
+
+.sales .items .item .shopNow a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.sales .items .item .date time{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sales .items .item .date{
+    margin-bottom: 24px;
+}
+.sales .items .item .date .date1{
+    display: flex;
+    align-items: center;
+}
+.sales .items .item .date .date1 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-right: 20px;
+}
+
